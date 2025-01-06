@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f9f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #87d487;
+  padding: 15px;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #87d487;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6db36d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5ca55b;
+}
+
+footer {
+  background-color: #6db36d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.options-list {
+  list-style-type: none; /* Remove as as bolinhas de tópicos */
+  padding: 0;           
+  margin: 0;            
+}
+
+.feedback-list {
+  list-style-type: none; 
+  padding: 0;        
+  margin: 0;          
+}
+
+.feedback-item, .question-item {
+  margin: 10px 0;     
+  text-align: left;    
+  background-color: #d9f7d3; 
+  padding: 10px;        
+  border-radius: 5px;  
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1); 
+}
+
